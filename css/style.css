@@ -61,8 +61,8 @@ section{
     background-clip: text;
     font-size: 3.5rem;
     text-transform: uppercase;
-    padding:1rem;
-    padding-bottom: 3rem;
+    padding:0.5rem;
+    padding-bottom: 2rem;
 }
 
 header{
@@ -71,7 +71,7 @@ header{
     width:100%;
     background:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    padding:2rem 9%;
+    padding:0.3rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,8 +81,17 @@ header{
 header .logo{
     font-size: 2rem;
     color:var(--purple);
+    
 }
+.logo-container{
+    display:flex;
+}
+.logo-container img{
+    width: 110px;
+    height: 110px;
+    display:flex;
 
+}
 header .logo span{
     color:var(--pink);
 }
